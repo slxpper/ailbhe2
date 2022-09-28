@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday Ailbhe</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/7c240f1e26.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <section id="years">
+      <nav>
+        <div class="nav__container">
+          <img class="logo" src="assets/2019.png"  alt="" />
+          <ul class="nav__links">
+            <li>
+              <a href="index.html" class="nav__link nav__link--primary">Home</a>
+            </li>
+            <li>
+              <a href="2020.html" class="nav__link nav__link--primary">2020</a>
+            </li>
+            <li>
+              <a href="2021.html" class="nav__link nav__link--primary">2021</a>
+            </li>
+            <li>
+              <a href="2022.html" class="nav__link nav__link--primary">2022</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <header>
+
+        <div class="accordion">
+          <button type="button" class="accordion__button">
+            June &nbsp; &nbsp; (09/2019)
+          </button>
+          <div class="accordion__Content">
+            <div class="accordion__content-content">
+              <p class="accordion__para">
+                The first month we got back together, start of a new journey.
+              </p>
+              <figure>
+                <img class="accordion__img" src="/assets/year 2019/jun/IMG_4992.jpg" alt="">
+              </figure>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <button type="button" class="accordion__button">
+            July &nbsp; &nbsp; (09/2019)
+          </button>
+          <div class="accordion__Content">
+            <div class="accordion__content-content">
+              <p class="accordion__para">
+                2 months in. Epic unicorn horn but no pictures of the two of us.
+              </p>
+              <figure>
+                <img class="accordion__img" src="/assets/year 2019/jul/IMG_4998.jpg" alt="">
+              </figure>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <button type="button" class="accordion__button">
+            August &nbsp; &nbsp; (09/2019)
+          </button>
+          <div class="accordion__Content">
+            <div class="accordion__content-content">
+              <p class="accordion__para">
+                3 months in. Eyo is that hiphop before she hated me? Good ole days
+              </p>
+              <figure>
+                <img class="accordion__img" src="/assets/year 2019/aug/IMG_5001.jpg" alt="">
+              </figure>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion">
+          <button type="button" class="accordion__button">
+            September &nbsp; &nbsp; (09/2019)
+          </button>
+          <div class="accordion__Content">
+            <div class="accordion__content-content">
+              <p class="accordion__para">
+                4 months in. First school year together has commenced.
+              </p>
+              <figure>
+                <img class="accordion__img" src="/assets/year 2019/sep/IMG_4984.jpg" alt="">
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="accordion">
+          <button type="button" class="accordion__button">
+            October &nbsp; &nbsp; (10/2019)
+          </button>
+          <div class="accordion__Content">
+            <div class="accordion__content-content">
+              <p class="accordion__para">
+                5 months in and I've already met the family. Remember this is when Aaron and Jamie were over and me and Jamie attempted to do some makeup. Also your first birthday we spent together!
+              </p>
+              <figure>
+                <img class="accordion__img" src="/assets/year 2019/oct/IMG_4914.jpg" alt="">
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="accordion">
+          <button type="button" class="accordion__button">
+            November &nbsp; &nbsp; (11/2019)
+          </button>
+          <div class="accordion__Content">
+            <div class="accordion__content-content">
+
+              <p class="accordion__para">
+                6 months in. These two are some real lovebirds huh?
+              </p>
+              <figure>
+                <img class="accordion__img" src="/assets/year 2019/nov/IMG_4982.jpg" alt="">
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="accordion">
+          <button type="button" class="accordion__button">
+            December &nbsp; &nbsp; (12/2019)
+          </button>
+          <div class="accordion__Content">
+            <div class="accordion__content-content">
+
+              <p class="accordion__para">
+                7 months in. First Christmas spent together, first of many.
+              </p>
+              <figure>
+                <img class="accordion__img" src="/assets/year 2019/dec/IMG_4981.jpg" alt="">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </header>
+    </section>
+    <script>
+        document.querySelectorAll(".accordion__button").forEach(button => {
+          button.addEventListener("click" , () => {
+            //const accordionContent = button.nextElementSibling;
+  
+            button.classList.toggle("accordion__button--active") ;
+  
+            //if (button.classList.contains("accordion__button--active")) {
+             // accordionContent.style.maxHeight = accordionContent.scrollHeight + "px" ;
+            //} else{
+            //  accordionContent.style.maxHeight = 0;
+           // }
+          });
+        });
+      </script>
+  </body>
+</html>
